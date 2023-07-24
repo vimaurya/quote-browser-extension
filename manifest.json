@@ -1,0 +1,17 @@
+{
+  "name" : "GyanLeloMitron",
+  "version": "0.0.1",
+  "manifest_version" : 3,
+  "description": "This gives you a random advice, you might need it.",
+  "action": {
+    "default_title" : "Gyan lijiye, thak gaye honge na",
+    "default_popup" : "popup.html",
+    "default_icon" : {
+        "128":"logo.png"
+    }
+  },
+  "permissions" : ["activeTab"],
+  "icons":{
+    "128":"logo.png"
+  }
+}
