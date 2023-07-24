@@ -6,12 +6,11 @@ function getRndInteger(min, max) {
   }
 
 category = list[getRndInteger(0,15)];
-require('dotenv').config();
-const apiKey = process.env.API_KEY;
+
 try{
     fetch("https://api.api-ninjas.com/v1/quotes?category="+category,{
             headers:{
-            'X-Api-Key' : apiKey
+            'X-Api-Key' : 'gkgRdGxsSRklsnfdnNyujg==XuoMoaqPpP28fGuT'
             }
         })
         .then(response => {
