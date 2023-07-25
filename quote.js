@@ -10,7 +10,7 @@ category = list[getRndInteger(0,15)];
 try{
     fetch("https://api.api-ninjas.com/v1/quotes?category="+category,{
             headers:{
-            'X-Api-Key' : 'gkgRdGxsSRklsnfdnNyujg==XuoMoaqPpP28fGuT'
+            'X-Api-Key' : API_KEY
             }
         })
         .then(response => {
